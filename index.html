@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bala</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <button class="toggle">
+            <i class="hamburguer fas fa-bars"></i>
+          </button>
+          
+          <img src="Bala-designstyle-boots-m.png" alt="Conquering responsive layouts logo" class="logo" width="155px" height="60px">
+        
+          <div class="nav-container">
+              <nav class="primary-nav">
+                
+                <ul class="nav__list">
+                  <li class="nav__list__item">
+                     <a href="#home" class="primary-nav__link">Home</a>
+                  </li>
+                  
+                  <li class="nav__list__item">
+                     <a href="#book" class="primary-nav__link">Book</a>
+                  </li>
+                  
+                  <li class="nav__list__item">
+                    <a href="#packages" class="primary-nav__link">Packages</a>
+                  </li>
+
+                  <li class="nav__list__item">
+                    <a href="#Services" class="primary-nav__link">Services</a>
+                  </li>
+
+                  <li class="nav__list__item">
+                    <a href="#gallery" class="primary-nav__link">Gallery</a>
+                  </li>
+
+                  <li class="nav__list__item">
+                    <a href="#contact" class="primary-nav__link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+      
+              <nav class="secondary-nav">
+                <ul class="nav__list">
+                  <li class="nav__list__item">
+                    <a href="" class="secondary-nav__link">sign in</a>
+                  </li>
+                  
+                  <li class="nav__list__item">
+                    <a href="" class="secondary-nav__link link-button">sign up</a>
+                  </li>
+                </ul>
+              </nav>
+          </div><!--End of the nav-container-->
+        </div><!--End of the first container inside header--> 
+      </header>
+      
+      <main class="main-content">
+    <!--Home section starts-->
+        <section class="home" id="home"> 
+
+            <div class="contant">
+                <h3>adventure in warthfool</h3>
+                <p>discover new place in world </p>
+            </div>
+    
+            <div class="controls">
+               <span class="vid-btn active" data-src="video-3.mp4"></span>
+               <span class="vid-btn" data-src="video-2.mp4"></span>
+               <span class="vid-btn" data-src="video-1.mp4"></span>
+               <span class="vid-btn" data-src="video-4.mp4"></span>
+               <span class="vid-btn" data-src="video-5.mp4"></span>
+            </div>
+    
+            <div class="video-container">
+                <video src="video-1.mp4" id="video-slider" loop autoplay muted> </video>
+            </div>
+    
+         </section>
+    <!--Home section ends-->
+
+    <!--Book Section Starts-->
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="tourist.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+
+                <div class="inputBox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+
+    </section>
+    <!--Book Section Ends-->
+    
+    <!--package section starts-->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="g-1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Himalaya</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Sidney</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>NewYork</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Newzaland</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>England</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Australia</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-7.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Japan</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-8.webp" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>russia</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="g-9.webp" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>south africa</h3>
+                <p>its a show beautiful places in this world! </p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> $ 90.00 <span> $120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--package section ends-->
+
+<!--service section starts-->
+
+<section class="Services" id="Services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affortbul hotels</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>we arrainge the Best Hotels in tour section</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!--service section ends-->
+
+
+<!--gallery section starts-->
+
+<section class="gallery" id="gallery">
+
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+
+    </h1>
+
+  <div class="box-container">
+      <div class="box">
+          <img src="g-10.jpg" alt="">
+          <div class="content">
+              <h3>Amazing places</h3>
+              <p>we have to scene the best places in the world</p>
+              <a href="#" class="btn">See more</a>
+          </div>
+      </div>
+
+      <div class="box">
+        <img src="g-11.jpg" alt="">
+        <div class="content">
+            <h3>Amazing places</h3>
+            <p>we have to scene the best places in the world</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g-12.jpg" alt="">
+        <div class="content">
+            <h3>Amazing places</h3>
+            <p>we have to scene the best places in the world</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g-13.jpg" alt="">
+        <div class="content">
+            <h3>Amazing places</h3>
+            <p>we have to scene the best places in the world</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g-14.avif" alt="">
+        <div class="content">
+            <h3>Amazing places</h3>
+            <p>we have to scene the best places in the world</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="g-15.jpg" alt="">
+        <div class="content">
+            <h3>Amazing places</h3>
+            <p>we have to scene the best places in the world</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+  </div>
+
+
+
+
+</section>
+
+
+<!--gallery section ends-->
+
+<!--Review section starts-->
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+
+    </h1>
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic-3.jpg" alt="">
+                    <h3>john Deo</h3>
+                    <p>he is professior of the web degine TesterJohn Doe (male) and Jane Doe 
+                        (female) are multiple-use placeholder names that are used when
+                         the true name of a person is unknown or is being intentionally concealed.
+                         [1][2][3] In the context of law enforcement in the United States, 
+                         such names are often used to refer to a corpse whose identity is unknown or unconfirmed. 
+                         These names are also often used to refer to a hypothetical "everyman" in other contexts,
+                          in a manner similar to John Q. Public or "Joe Public". There are many variants</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+</section>
+<!--Review section ends-->
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="journey.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+
+</section>
+<!--contact section ends-->
+
+      </main>
+      
+      <footer class="footer">
+        <p class="footer__text-big">Bala Krishna Travels and Tours Pvt.Ltd</p>
+        
+        <div class="container row2">
+          <section class="footer__section">
+            <h2 class="subtitle">about our company</h2>
+      
+            <p class="footer__section__text">
+              Nurtured from the seed of a single great idea - to empower the traveller - Bala Krishna Travels and Tours Pvt.Ltd is a pioneer in India’s online travel industry. Founded in the year 2000 by Bala krishna, Bala Krishna Travels and Tours Pvt.Ltd came to life to empower the Indian traveller with instant bookings and comprehensive choices. The company initiated its journey serving the US-India travel market offering a range of best-value products and services powered by technology and round-the-clock customer support.
+            </p>
+          </section>
+      
+          <div class="row">
+            <nav class="footer__nav">
+              <h2 class="subtitle">getting around</h2>
+      
+              <div class="footer__nav__wrap">
+                <a href="#" class="footer__nav__link">home</a>
+                <a href="#" class="footer__nav__link">about</a>
+                <a href="#" class="footer__nav__link">contact</a>
+              </div>
+            </nav>
+      
+            <nav class="footer__nav">
+              <h2 class="subtitle">other things</h2>
+      
+              <div class="footer__nav__wrap">
+                <a href="#" class="footer__nav__link">Summer Trips</a>
+                <a href="#" class="footer__nav__link">Event Tours</a>
+                <a href="#" class="footer__nav__link">Marriage Trips</a>
+                <a href="#" class="footer__nav__link">Causual vistings</a>
+              </div>
+            </nav>
+      
+            <nav class="footer__nav">
+              <h2 class="subtitle">Social Network</h2>
+      
+              <div class="footer__nav__wrap">
+                <a href="#" class="footer__nav__link">Bala@Insta</a>
+                <a href="#" class="footer__nav__link">Balafacebook.com</a>
+                <a href="#" class="footer__nav__link">Bala.com</a>
+                <a href="#" class="footer__nav__link">Balatravelstwitter.com</a>
+              </div>
+            </nav>
+          </div><!--End of the row div-->
+        </div><!--End of the container div-->
+      </footer>
+      
+      <!--script for icons-->
+      <script src="https://kit.fontawesome.com/150d9cdc3a.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
